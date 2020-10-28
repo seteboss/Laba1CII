@@ -6,6 +6,6 @@ import lombok.Data;
 
 @Data
 public class Decision {
-		List<Integer> accommodation = new ArrayList<>();
-		Integer energy;
+		List<Integer> accommodation;
+		int energy;
 }
